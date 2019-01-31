@@ -22,6 +22,11 @@ namespace Fields
         {
             this.Name = name;
         }
+
+        public void Promote()
+        {
+            //...TODO:  CODE GOES HERE
+        }
     }
 
     public class Order
