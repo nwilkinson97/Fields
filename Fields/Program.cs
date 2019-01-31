@@ -25,7 +25,7 @@ namespace Fields
 
         public void Promote()
         {
-            //...TODO:  CODE GOES HERE
+            Orders = new List<Order>();
         }
     }
 
@@ -37,6 +37,8 @@ namespace Fields
     {
         static void Main(string[] args)
         {
+            var customer = new Customer();
+            customer.Promote();
         }
     }
 }
